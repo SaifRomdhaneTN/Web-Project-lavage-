@@ -1,0 +1,54 @@
+.video-container {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden; 
+    
+}
+
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1; 
+    transform: translate(-50%, -50%);
+}
+
+#mainHeader{
+    position: absolute; 
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: 3; 
+    background: rgba(0, 0, 0, 0); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+.overlay-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    z-index: 2; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 2rem;}
+
+#overlay-image{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 2; 
+    height: auto;
+    width: auto;
+
+}
+

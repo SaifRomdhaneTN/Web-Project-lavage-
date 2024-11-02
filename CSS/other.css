@@ -1,0 +1,169 @@
+/* Services CSS */
+
+img{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.imageRight{
+    border: 10px #001F3F solid;
+}
+.imageLeft{
+    border: 10px #6A9AB0 solid;
+}
+section{
+    padding:40px 60px;
+    color: #6A9AB0;
+    text-align: center;
+    align-items: center; 
+    display: flex;    
+    flex-direction: row;  
+}
+
+.navColor{
+    background-color: #001F3F;
+    color: #6A9AB0;
+    text-align: left;
+}
+
+.otherColor{
+    
+    color: #001F3F;
+    text-align: right;
+}
+
+h2{
+    text-align: center;         
+    margin: 0;   
+    font-size: 48px;
+}
+.text{
+    flex: 1;     
+    padding: 20px;                
+    display: flex;      
+    flex-direction: column;         
+    justify-content: center;      
+    align-items: center;          
+    text-align: center;         
+    overflow-wrap: break-word;   
+}
+.text{
+    flex: 1;     
+    padding: 20px;                
+    display: flex;      
+    flex-direction: column;         
+    justify-content: center;      
+    align-items: center;          
+    text-align: center;         
+    overflow-wrap: break-word;   
+}
+.navColor p{
+   color: white;
+}
+.otherColor p{
+    color: black;
+ }
+
+
+
+/* Pricing Css */
+
+#pricingSection{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #001F3F;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tdHead{
+    color: #508C9B;
+    font-size: 38px;
+    padding: 40px;
+    margin: 0px;
+    
+}
+
+.headImg{
+    fill: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 0px;
+}
+
+.trBody td {
+    padding: 40px;
+    text-align: center;
+}
+
+.services{
+    font-size: 38px;
+    color: white;
+}
+
+.servicesImg{
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Contact CSS */
+
+#contactSection{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 40vw;
+    text-align: center;
+    align-items: center;
+    background-color: #001F3F;
+    
+}
+
+#contactHeader{
+    font-size: 52px;
+    color: #0B8494;
+    font-weight: bold;
+}
+
+.formLabel{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: right;
+    font-size: 38px;
+    color: white;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border: 3px #001F3F solid;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+textarea{
+    width: 400px;
+    border: 3px #001F3F solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.formInput{
+    padding: 10px;
+}
+
+#submitButton{
+    height: auto;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    width: 170px;
+    padding: 10px;
+    background-color:#3A6D8C ;
+    border: 0px white solid;
+}
