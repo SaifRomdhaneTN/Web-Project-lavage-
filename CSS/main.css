@@ -9,12 +9,14 @@ nav ul {
 #registerLink a{
     float: right;
     margin-right: 2rem;
+    font-weight: bold;
     color: #6A9AB0;
     text-decoration: none;
 }
 #loginLink a{
     float: right;
     margin-right: 5rem;
+    font-weight: bold;
     color: #508C9B;
     text-decoration: none;
 }

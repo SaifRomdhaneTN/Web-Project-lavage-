@@ -73,7 +73,7 @@ h2{
 #pricingSection{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+   
     background-color: #001F3F;
     text-align: center;
     align-items: center;
@@ -116,12 +116,10 @@ h2{
 #contactSection{
     display: flex;
     flex-direction: column;
-    width: 100vw;
     height: 40vw;
     text-align: center;
     align-items: center;
     background-color: #001F3F;
-    
 }
 
 #contactHeader{

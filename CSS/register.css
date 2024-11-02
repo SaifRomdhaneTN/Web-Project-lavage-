@@ -1,0 +1,71 @@
+#bodyRegister{
+ background-color: #3a6d8c;
+ display: flex;
+ flex-direction: column;
+ height: 40vw;
+ text-align: center;
+ align-items: center;
+}
+
+#RegisterTitle{
+    color: white;
+    font-size: 48px;
+    margin-top: 3rem;
+}
+
+#FormReg{
+    border-radius: 45px;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 50px;
+    
+}
+
+.labelReg{
+    font-weight: bold;
+    color: #3a6d8c;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.InputReg{
+    border: 3px #001F3F solid;
+    border-radius:35px ;
+    padding: 5px;
+}
+
+#submitButton{
+    background-color: #3a6d8c;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+/*** login page ***/
+
+#bodyLogin{
+    background-color: #001F3F;
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    text-align: center;
+    align-items: center;
+}
+
+.labelLog{
+    font-weight: bold;
+    color: #001F3F;
+    font-size: 24px;
+    padding: 10px;
+}
+
+#submitLogin{
+    background-color: #001F3F;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+}
