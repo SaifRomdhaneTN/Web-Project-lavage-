@@ -1,167 +1,165 @@
 /* Services CSS */
 
-img{
-    height: 400px;
-    width: 400px;
-    display: inline-block;
-    border-radius: 50%;
+img {
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  border-radius: 50%;
 }
 
-.imageRight{
-    border: 10px #001F3F solid;
+.imageRight {
+  border: 10px #001f3f solid;
 }
-.imageLeft{
-    border: 10px #6A9AB0 solid;
+.imageLeft {
+  border: 10px #6a9ab0 solid;
 }
-section{
-    padding:40px 60px;
-    color: #6A9AB0;
-    text-align: center;
-    align-items: center; 
-    display: flex;    
-    flex-direction: row;  
-}
-
-.navColor{
-    background-color: #001F3F;
-    color: #6A9AB0;
-    text-align: left;
+section {
+  padding: 40px 60px;
+  color: #6a9ab0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.otherColor{
-    
-    color: #001F3F;
-    text-align: right;
+.navColor {
+  background-color: #001f3f;
+  color: #6a9ab0;
+  text-align: left;
 }
 
-h2{
-    text-align: center;         
-    margin: 0;   
-    font-size: 48px;
+.otherColor {
+  color: #001f3f;
+  text-align: right;
 }
-.text{
-    flex: 1;     
-    padding: 20px;                
-    display: flex;      
-    flex-direction: column;         
-    justify-content: center;      
-    align-items: center;          
-    text-align: center;         
-    overflow-wrap: break-word;   
-}
-.text{
-    flex: 1;     
-    padding: 20px;                
-    display: flex;      
-    flex-direction: column;         
-    justify-content: center;      
-    align-items: center;          
-    text-align: center;         
-    overflow-wrap: break-word;   
-}
-.navColor p{
-   color: white;
-}
-.otherColor p{
-    color: black;
- }
 
-
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 48px;
+}
+.text {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.text {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.navColor p {
+  color: white;
+}
+.otherColor p {
+  color: black;
+}
 
 /* Pricing Css */
 
-#pricingSection{
-    display: flex;
-    flex-direction: row;
-   
-    background-color: #001F3F;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+#pricingSection {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #001f3f;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.tdHead{
-    color: #508C9B;
-    font-size: 38px;
-    padding: 40px;
-    margin: 0px;
-    
+.tdHead {
+  color: #508c9b;
+  font-size: 38px;
+  padding: 40px;
+  margin: 0px;
 }
 
-.headImg{
-    fill: white;
-    height: 100px;
-    width: 100px;
-    border-radius: 0px;
+.headImg {
+  fill: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 0px;
 }
 
 .trBody td {
-    padding: 40px;
-    text-align: center;
+  padding: 40px;
+  text-align: center;
 }
 
-.services{
-    font-size: 38px;
-    color: white;
+.services {
+  font-size: 38px;
+  color: white;
 }
 
-.servicesImg{
-    height: 50px;
-    width: 50px;
+.servicesImg {
+  height: 50px;
+  width: 50px;
 }
-
 
 /* Contact CSS */
 
-#contactSection{
-    display: flex;
-    flex-direction: column;
-    height: 40vw;
-    text-align: center;
-    align-items: center;
-    background-color: #001F3F;
+#contactSection {
+  display: flex;
+  flex-direction: column;
+  /* height: 40vw; */
+  text-align: center;
+  align-items: center;
+  background-color: #f4f4f4;
 }
 
-#contactHeader{
-    font-size: 52px;
-    color: #0B8494;
-    font-weight: bold;
+#contactHeader {
+  font-size: 52px;
+  color: #0b8494;
+  font-weight: bold;
 }
 
-.formLabel{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    text-align: right;
-    font-size: 38px;
-    color: white;
+.formLabel {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+  font-size: 38px;
+  color: #0b8494;
 }
-input{
-    width: 400px;
-    height: 30px;
-    border: 3px #001F3F solid;
-    border-radius: 25px;
-    padding-left: 10px;
+input {
+  width: 400px;
+  height: 30px;
+  border: 1px #495668 solid;
+  border-radius: 4px;
+  padding-left: 10px;
 }
-textarea{
-    width: 400px;
-    border: 3px #001F3F solid;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-.formInput{
-    padding: 10px;
+textarea {
+  width: 400px;
+  border: 1px #495668 solid;
+  border-radius: 4px;
+  padding: 10px;
 }
 
-#submitButton{
-    height: auto;
-    font-size: 28px;
-    color: white;
-    font-weight: bold;
-    width: 170px;
-    padding: 10px;
-    background-color:#3A6D8C ;
-    border: 0px white solid;
+.formInput {
+  padding: 10px;
+}
+
+#submitButton {
+  height: auto;
+  font-size: 28px;
+  color: white;
+  padding: 10px;
+  background-color: #001f3f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submitButton:hover {
+  background-color: #0b8494;
+  border: 1px #0b8494 solid;
 }

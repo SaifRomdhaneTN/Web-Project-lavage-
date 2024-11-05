@@ -1,63 +1,62 @@
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
-#VIP{
-    color: #3A6D8C  ;
+#VIP {
+  color: #3a6d8c;
 }
 
-#registerLink a{
-    float: right;
-    margin-right: 2rem;
-    font-weight: bold;
-    color: #6A9AB0;
-    text-decoration: none;
+#registerLink a {
+  float: right;
+  margin-right: 2rem;
+  font-weight: bold;
+  color: #6a9ab0;
+  text-decoration: none;
 }
-#loginLink a{
-    float: right;
-    margin-right: 5rem;
-    font-weight: bold;
-    color: #508C9B;
-    text-decoration: none;
+#loginLink a {
+  float: right;
+  margin-right: 5rem;
+  font-weight: bold;
+  color: #508c9b;
+  text-decoration: none;
 }
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
-#iconNav{
-    width: 50px;
-    height: 50px;
-    display: inline; 
+#iconNav {
+  width: 50px;
+  height: 50px;
+  display: inline;
 }
 
 .normalLinks {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 header {
-    background: #001F3F;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+  background: #001f3f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
-
